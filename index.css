@@ -1,0 +1,167 @@
+.carousel img{
+    object-fit: cover;
+    height: 50vh !important;
+}
+
+.parents{
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card{
+  text-align: center;
+  border: none !important;
+}
+
+.card h5{
+  font-size: 30px;
+}
+
+.bir{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 100px;
+  align-items: center;
+}
+
+.left2 h4{
+  padding: 20px;
+  font-size: 50px;
+  color: #5a5a5a;
+}
+
+.left2 p{
+  font-size: 1.25rem;
+  color: #5a5a5a;
+}
+
+.right2 img{
+  width: 100%;
+  object-fit: contain;
+}
+
+.ikki{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 100px;
+  align-items: center;
+  gap: 30px;
+}
+
+.right3 h4{
+  padding: 20px;
+  font-size: 50px;
+  color: #5a5a5a;
+}
+
+.right3 p{
+  font-size: 1.25rem;
+  color: #5a5a5a;
+}
+
+.left3 img{
+  width: 100%;
+  object-fit: contain;
+}
+
+
+
+
+.uch{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 100px;
+  align-items: center;
+}
+
+.left4 h4{
+  padding: 20px;
+  font-size: 50px;
+  color: #5a5a5a;
+}
+
+.left4 p{
+  font-size: 1.25rem;
+  color: #5a5a5a;
+}
+
+.right4 img{
+  width: 100%;
+  object-fit: contain;
+}
+
+footer{
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.two{
+  display: flex;
+  gap: 5px;
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 952px  ){
+  .bir{
+    height: max-content;
+    flex-direction: column-reverse;
+    padding: 0px 50px;
+  }
+  .left2{
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 952px  ){
+  .ikki{
+    height: max-content;
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+  .right3{
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 952px  ){
+  .uch{
+    height: max-content;
+    flex-direction: column-reverse;
+    padding: 0px 50px;
+  }
+  .left4{
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 952px) {
+  footer{
+    height: max-content;
+    width: 100%;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.two{
+  display: flex;
+  gap: 5px;
+}
+
+}
